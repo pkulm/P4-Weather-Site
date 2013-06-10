@@ -12,7 +12,7 @@ body {
 
 #weather h2,
 #weather h3 {
-  margin: 100px 0 8px;
+  margin: 80px 0 8px;
   color: #fff;
   font-size: 7em;
   font-weight: 300;
@@ -110,10 +110,13 @@ ul li h5 {
 	#weather {
 		width: 50%;
 	}
+	
 	#inputs {
 		width: 50%;
 	}
-	
+		#weather img {
+		margin: 40px 40px 40px 0;
+	}
 	#weather h2,
 	#weather h3 {
 	  margin: 30px 30px 8px;
@@ -140,6 +143,10 @@ ul li h5 {
 @media (max-width: 480px) {
 	#weather {
 		width: 40%;
+		margin: 20px 10px 0px 75px;
+	}
+	#weather img {
+		margin: 40px 40px 40px 0;
 	}
 	#inputs {
 		width: 40%;
@@ -147,7 +154,7 @@ ul li h5 {
 	
 	#weather h2,
 	#weather h3 {
-	  margin: 20px 20px 0px 0px;
+	  margin: 10px 10px 0px 0px;
 	  color: #fff;
 	  font-size: 3em;
 	  font-weight: 300;
