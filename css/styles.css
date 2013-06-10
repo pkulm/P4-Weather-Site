@@ -4,8 +4,8 @@ body {
 }
 
 #weather {
-  width: 425px;
-  margin: 0px auto;
+  width: 100%;
+  margin: 50px auto;
   text-align: center;
   text-transform: uppercase;
 }
@@ -28,7 +28,7 @@ body {
   background: #fff;
   background: rgba(255,255,255,0.90);
   padding: 20px;
-  display: inline-block;
+ /* display: inline-block;*/
   border-radius: 5px;
 }
 
