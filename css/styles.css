@@ -78,35 +78,91 @@ ul li h5 {
 @media (min-width: 768px) and (max-width: 979px) {
 	#weather {
 		width: 75%;
-		font-size: 75%;
-		line-height: 20px;
 	}
 	#inputs {
 		width: 75%;
+	}
+	
+	#weather h2,
+	#weather h3 {
+	  margin: 50px 50px 8px;
+	  color: #fff;
+	  font-size: 5em;
+	  font-weight: 300;
+	  line-height: normal;
+	  text-align: center;
+	  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+	}
+	
+	#weather h5 {
+	  margin: 0 0 8px;
+	  color: #fff;
+	  font-size: 3em;
+	  line-height: normal;
+	  font-weight: 300;
+	  text-align: center;
+	  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 	}
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	#weather {
-		width: 75%;
-		font-size: 75%;
-		line-height: 20px;
+		width: 50%;
 	}
 	#inputs {
-		width: 75%;
+		width: 50%;
+	}
+	
+	#weather h2,
+	#weather h3 {
+	  margin: 30px 30px 8px;
+	  color: #fff;
+	  font-size: 4em;
+	  font-weight: 300;
+	  line-height: normal;
+	  text-align: center;
+	  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+	}
+	
+	#weather h5 {
+	  margin: 0 0 8px;
+	  color: #fff;
+	  font-size: 3em;
+	  font-weight: 300;
+	  line-height: normal;
+	  text-align: center;
+	  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 	}
 }
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	#weather {
-		width: 75%;
-		font-size: 75%;
-		line-height: 20px;
+		width: 40%;
 	}
 	#inputs {
-		width: 75%;
+		width: 40%;
+	}
+	
+	#weather h2,
+	#weather h3 {
+	  margin: 20px 20px 0px 0px;
+	  color: #fff;
+	  font-size: 3em;
+	  font-weight: 300;
+	  text-align: center;
+	  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+	}
+	
+	#weather h5 {
+	  margin: 0 0 8px;
+	  color: #fff;
+	  font-size: 2em;
+	  line-height: normal;
+	  font-weight: 300;
+	  text-align: center;
+	  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 	}
 }
 
