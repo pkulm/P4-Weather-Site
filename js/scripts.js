@@ -9,12 +9,10 @@ console.log('zip');
 $('.btn').click(function(){ 
 	$.simpleWeather({
 	zipcode: getZip,
-	//woeid: '2357536',
-	//location: '',
 	unit: 'f',
 	success: function(weather) {
 		html = '<h2>'+weather.city+', '+weather.region+'</h2>';
-		html += '<img style="float:left;" width="125px" src="'+weather.image+'">';
+		html += '<img style="float:left;" width="125px" src="images/weather/'+weather.code+'.png">';
 		html += '<p>'+weather.temp+'&deg; '+weather.units.temp+'<br /><span>'+weather.currently+'</span></p>';
  
 		$("#weather").html(html);
@@ -27,3 +25,4 @@ $('.btn').click(function(){
 
 	
 });
+
