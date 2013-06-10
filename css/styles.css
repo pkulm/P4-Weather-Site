@@ -4,16 +4,26 @@ body {
 }
 
 #weather {
-  width: 100%;
+  width: 960px;
   margin: 50px auto;
   text-align: center;
   text-transform: uppercase;
 }
 
-#weather h2 {
+#weather h2,
+#weather h3 {
+  margin: 100px 0 8px;
+  color: #fff;
+  font-size: 7em;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather h5 {
   margin: 0 0 8px;
   color: #fff;
-  font-size: 150px;
+  font-size: 3em;
   font-weight: 300;
   text-align: center;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
@@ -25,16 +35,34 @@ body {
 }
 
 #weather li {
-  background: #fff;
+  /*background: #fff;
   background: rgba(255,255,255,0.90);
-  padding: 20px;
- /* display: inline-block;*/
+  padding: 0px;*/
+  display: inline;
   border-radius: 5px;
+  width: 75%;
 }
 
 #weather .currently {
   margin: 0 20px;
 }
+
+#inputs {
+	margin: 50px 0px 0px 50px;
+}
+
+.btn {
+	margin: 0 0 10px 0;
+}
+
+ul li img {
+	margin: 40px;
+}
+
+ul li h5 {
+	margin: 40px;
+}
+
 
 
 
